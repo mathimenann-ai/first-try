@@ -20,7 +20,7 @@
 
         <div class="container">
 
-            <h1>HTML Laboratory</h1>
+            <h1> 🔬 HTML Laboratory </h1>
 
             <h2>
                 Learning HTML Through a Portfolio Built From Scratch
@@ -36,7 +36,7 @@
                 <strong>Version 1.0</strong> • Pure HTML Edition
             </p>
             <hr>
-        </div>
+            </div>
 
     </header>
 
@@ -50,11 +50,11 @@
         <!--          PROJECT INTRODUCTION                -->
         <!--==============================================-->
 
-        <section>
+        <section id="intro">
 
             <div class="container">
 
-                <h2>Welcome to the Laboratory</h2>
+                <h2> 👋 Welcome to My HTML Laboratory </h2>
 
                 <p>
                     This website is my first web development project, built while
@@ -93,6 +93,116 @@
             </div>
 
         </section>
+
+        <!--============================================-->
+        <!--               VISITOR FORM                 -->
+        <!--============================================-->
+
+        <section id="visitor_form">
+            <div class="container">
+
+                <h2> 🧪 Laboratory Check-In </h2>
+
+                <p>
+                    Every experiment begins with a quick check-in.
+                    Tell me a little about yourself before we begin.
+                </p>
+
+                <form>
+
+                    <!--visitor name-->
+                    <label for="name">
+                       👤 Your Name : <input id="name" name="visitor-name" placeholder="visitor_name "
+                        minlength="2" maxlength="20" required >
+                    </label>
+
+                    <!--visitor type-->
+
+                    <p> 🧑‍💻 which best describes you: </p>
+
+                        <input type="radio" name="vis_type" value="student" id="student">
+                        <label for="student">Student</label> <br>
+
+                        <input type="radio" name="vis_type" value="recruiter" id="recruiter">
+                        <label for="recruiter">Recruiter</label> <br>
+
+                        <input type="radio" name="vis_type" value="teacher" id="teacher">
+                        <label for="teacher">Teacher</label> <br>
+
+                        <input type="radio" name="vis_type" value="friend" id="friend">
+                        <label for="friend">Friend</label> <br>
+
+                        <input type="radio" name="vis_type" value="others" id="others">
+                        <label for="others">Others</label> <br> <br>
+
+                    <!--Found the Laboratory By-->
+
+                    <label for="found_by"> 
+                       📚 How did you discover this project :
+                            <select id="found_by" name="discovered_by" required >
+                                <option value="" selected disabled>--Discovered by--:</option>
+                                <option value="linkedin">LinkedIn</option>
+                                <option value="github">GitHub</option>
+                                <option value="instagram">Instagram</option>
+                                <option value="search engine">search engine</option>
+                                <option value="others">Others</option>
+                            </select>
+                    </label>
+
+
+                    <!--Exploration Interests-->
+
+                    <P> 🌐 What would you like to explore: </P>
+                        
+                        <input type="checkbox" name="interested_in" id="about me" value="about_me">
+                        <label for="about_me">About Me</label> <br>
+
+                        <input type="checkbox" name="interested_in" id="education" value="education">
+                        <label for="education">Education</label> <br>
+
+                        <input type="checkbox" name="interested_in" id="achievements" value="achievements">
+                        <label for="achievements">Achievements</label> <br>
+
+                        <input type="checkbox" name="interested_in" id="skills" value="skills">
+                        <label for="skills">Skills</label> <br>
+
+                        <input type="checkbox" name="interested_in" id="contact" value="contact">
+                        <label for="contact">Contact</label> <br><br>
+
+
+                    <!--First Impression Textarea-->
+
+                    <label for="msg">
+
+                        💭 Your Thoughts : <br>
+
+                            <textarea   
+                                id="msg" 
+                                name="vistor's_msg" 
+                                rows="5"
+                                cols="30"
+                                placeholder="Share your thoughts..." 
+                                required ></textarea> 
+
+                    </label>
+
+                    <br> <br>
+
+                    <!--Button-->
+
+                    <button type="submit">
+                        Continue Exploring 🚀 
+                    </button>
+
+                    
+
+                </form>
+                <hr>
+            </div>
+        </section>
+            
+
+        
 
     </main>
 
