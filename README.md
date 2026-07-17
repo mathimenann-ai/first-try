@@ -24,7 +24,7 @@ A beginner-friendly portfolio website built entirely with **HTML5** as part of m
 To strengthen my understanding of HTML fundamentals by building a complete portfolio website from scratch without using CSS or JavaScript.
 
 ## Author
-**S. Sanmathi**
+**S. Sanmenan**
 
 ---
 
